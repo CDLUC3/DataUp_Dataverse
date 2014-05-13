@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<!--
+modified from http://swordapp.github.io/SWORDv2-Profile/SWORDProfile.html#protocoloperations_editingcontent_metadata
+-->
+<entry xmlns="http://www.w3.org/2005/Atom"
+       xmlns:dcterms="http://purl.org/dc/terms/">
+  <dcterms:title></dcterms:title>
+  <dcterms:creator></dcterms:creator>
+  <dcterms:creator></dcterms:creator>
+  <dcterms:publisher></dcterms:publisher>
+  <dcterms:date></dcterms:date>
+  <dcterms:description></dcterms:description>
+  <dcterms:subject></dcterms:subject>
+  <dcterms:subject></dcterms:subject>
+  <dcterms:subject></dcterms:subject>
+  <dcterms:coverage></dcterms:coverage>
+  <dcterms:coverage></dcterms:coverage>
+  <dcterms:type></dcterms:type>
+  <dcterms:source></dcterms:source>
+</entry>
