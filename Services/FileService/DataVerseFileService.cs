@@ -79,7 +79,7 @@ namespace Microsoft.Research.DataOnboarding.FileService
 
             var repositoryModel = GetRepositoryModel(repository, authorization);
 
-            PublishDataVerseFileModel publishMerritFileModel = new PublishDataVerseFileModel()
+            PublishDataVerseFileModel publishDataVerseFileModel = new PublishDataVerseFileModel()
             {
                 File = dataFile,
                 RepositoryModel = repositoryModel,
@@ -87,7 +87,7 @@ namespace Microsoft.Research.DataOnboarding.FileService
                 FileColumnUnits = fileColumnUnits,
             };
 
-            status = this.RepositoryAdapter.PostFile(publishMerritFileModel);
+            status = this.RepositoryAdapter.PostFile(publishDataVerseFileModel);
 
             return identifier;
         }

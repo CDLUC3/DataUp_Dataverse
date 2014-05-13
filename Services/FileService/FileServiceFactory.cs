@@ -90,7 +90,10 @@ namespace Microsoft.Research.DataOnboarding.FileService
 
                 case BaseRepositoryEnum.Merritt:
                     return new MerritFileService(this.fileDataRepository, this.blobDataRepository, this.unitOfWork, this.repositoryDetails, this.repositoryService, this.repositoryAdapterFactory, this.userService);
-                   
+
+                case BaseRepositoryEnum.DataVerse:
+                    return new DataVerseFileService(this.fileDataRepository, this.blobDataRepository, this.unitOfWork, this.repositoryDetails, this.repositoryService, this.repositoryAdapterFactory, this.userService);
+                
                 default:
                     return new FileServiceProvider(this.fileDataRepository, this.blobDataRepository, this.unitOfWork,this.repositoryDetails,this.repositoryService, this.repositoryAdapterFactory);
             }

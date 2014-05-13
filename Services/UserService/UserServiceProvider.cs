@@ -212,8 +212,5 @@ namespace Microsoft.Research.DataOnboarding.Services.UserService
         }
 
         #endregion
-
-
-        
     }
 }
